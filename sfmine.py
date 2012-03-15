@@ -171,7 +171,7 @@ def main():
     mine(connection, options.reset, 100, int(options.start), 6000)
 
   if options.list:
-    list(connection, options.html, 5000)
+    list(connection, options.html, 1000)
     
   if options.refresh:
     refresh(connection, 5000, int(options.start))
